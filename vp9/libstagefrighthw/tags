@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddCore	WrsOMXPlugin.cpp	/^OMX_ERRORTYPE WrsOMXPlugin::AddCore(const char* coreName)$/;"	f	class:android::WrsOMXPlugin
+ComponentNameEnumFunc	WrsOMXPlugin.h	/^    typedef OMX_ERRORTYPE (*ComponentNameEnumFunc)($/;"	t	struct:android::WrsOMXCore
+DeinitFunc	WrsOMXPlugin.h	/^    typedef OMX_ERRORTYPE (*DeinitFunc)();$/;"	t	struct:android::WrsOMXCore
+FreeHandleFunc	WrsOMXPlugin.h	/^    typedef OMX_ERRORTYPE (*FreeHandleFunc)(OMX_HANDLETYPE *);$/;"	t	struct:android::WrsOMXCore
+GetHandleFunc	WrsOMXPlugin.h	/^    typedef OMX_ERRORTYPE (*GetHandleFunc)($/;"	t	struct:android::WrsOMXCore
+GetRolesOfComponentFunc	WrsOMXPlugin.h	/^    typedef OMX_ERRORTYPE (*GetRolesOfComponentFunc)($/;"	t	struct:android::WrsOMXCore
+InitFunc	WrsOMXPlugin.h	/^    typedef OMX_ERRORTYPE (*InitFunc)();$/;"	t	struct:android::WrsOMXCore
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := $(PV_CFLAGS_MINUS_VISIBILITY)$/;"	m
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES:= \\$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := libstagefrighthw$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES :=       \\$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+WRS_OMX_PLUGIN_H_	WrsOMXPlugin.h	40;"	d
+WrsOMXComponent	WrsOMXPlugin.h	/^struct WrsOMXComponent {$/;"	s	namespace:android
+WrsOMXCore	WrsOMXPlugin.h	/^struct WrsOMXCore {$/;"	s	namespace:android
+WrsOMXPlugin	WrsOMXPlugin.cpp	/^WrsOMXPlugin::WrsOMXPlugin()$/;"	f	class:android::WrsOMXPlugin
+WrsOMXPlugin	WrsOMXPlugin.h	/^struct WrsOMXPlugin : public OMXPluginBase {$/;"	s	namespace:android
+android	WrsOMXPlugin.cpp	/^namespace android {$/;"	n	file:
+android	WrsOMXPlugin.h	/^namespace android {$/;"	n
+createOMXPlugin	WrsOMXPlugin.cpp	/^OMXPluginBase *createOMXPlugin() {$/;"	f	namespace:android
+destroyComponentInstance	WrsOMXPlugin.cpp	/^OMX_ERRORTYPE WrsOMXPlugin::destroyComponentInstance($/;"	f	class:android::WrsOMXPlugin
+enumerateComponents	WrsOMXPlugin.cpp	/^OMX_ERRORTYPE WrsOMXPlugin::enumerateComponents($/;"	f	class:android::WrsOMXPlugin
+getRolesOfComponent	WrsOMXPlugin.cpp	/^OMX_ERRORTYPE WrsOMXPlugin::getRolesOfComponent($/;"	f	class:android::WrsOMXPlugin
+mComponent	WrsOMXPlugin.h	/^    OMX_COMPONENTTYPE *mComponent;$/;"	m	struct:android::WrsOMXComponent
+mComponentNameEnum	WrsOMXPlugin.h	/^    ComponentNameEnumFunc mComponentNameEnum;$/;"	m	struct:android::WrsOMXCore
+mComponents	WrsOMXPlugin.h	/^    Vector<WrsOMXComponent> mComponents;$/;"	m	struct:android::WrsOMXPlugin
+mCore	WrsOMXPlugin.h	/^    WrsOMXCore *mCore;$/;"	m	struct:android::WrsOMXComponent
+mCores	WrsOMXPlugin.h	/^    Vector<WrsOMXCore*> mCores;$/;"	m	struct:android::WrsOMXPlugin
+mDeinit	WrsOMXPlugin.h	/^    DeinitFunc mDeinit;$/;"	m	struct:android::WrsOMXCore
+mFreeHandle	WrsOMXPlugin.h	/^    FreeHandleFunc mFreeHandle;$/;"	m	struct:android::WrsOMXCore
+mGetHandle	WrsOMXPlugin.h	/^    GetHandleFunc mGetHandle;$/;"	m	struct:android::WrsOMXCore
+mGetRolesOfComponentHandle	WrsOMXPlugin.h	/^    GetRolesOfComponentFunc mGetRolesOfComponentHandle;$/;"	m	struct:android::WrsOMXCore
+mInit	WrsOMXPlugin.h	/^    InitFunc mInit;$/;"	m	struct:android::WrsOMXCore
+mLibHandle	WrsOMXPlugin.h	/^    void *mLibHandle;$/;"	m	struct:android::WrsOMXCore
+mMutex	WrsOMXPlugin.h	/^    Mutex mMutex; \/\/ to protect access to mComponents$/;"	m	struct:android::WrsOMXPlugin
+mNumComponents	WrsOMXPlugin.h	/^    OMX_U32 mNumComponents;$/;"	m	struct:android::WrsOMXCore
+makeComponentInstance	WrsOMXPlugin.cpp	/^OMX_ERRORTYPE WrsOMXPlugin::makeComponentInstance($/;"	f	class:android::WrsOMXPlugin
+~WrsOMXPlugin	WrsOMXPlugin.cpp	/^WrsOMXPlugin::~WrsOMXPlugin() {$/;"	f	class:android::WrsOMXPlugin
